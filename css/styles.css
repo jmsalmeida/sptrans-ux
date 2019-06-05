@@ -1,0 +1,191 @@
+/* All */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+section {
+  padding: 30px 10px;
+}
+
+/* Generic classes */
+.bars {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #e3301c;
+  font-weight: 700;
+}
+
+.bars a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+/* Classes */
+.header-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.header-logos img {
+  width: 80px;
+}
+
+.nav-menu ul {
+  margin: 0;
+}
+
+.banner {
+  background-image: url('../images/consulteasituacaobilhete2.png');
+  height: 300px;
+  padding: 0;
+}
+
+.bu-section {
+  border-bottom: 1px solid #e3301c;
+}
+
+.bu-section .logo {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bu-section p {
+  margin: 30px;
+  text-align: center;
+}
+
+.bu-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.news h2 {
+  color: #e3301c;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.news h3 {
+  color: #e3301c;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.red-border {
+  width: 5px;
+  height: 15px;
+  margin-right: 20px;
+  background-color: #e3301c;
+}
+
+.spotlight {
+  border-bottom: 2px dotted #ccc;
+  margin: 20px 0;
+}
+
+.spotlight p {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 900;
+}
+
+.news .title-spotlight {
+  display: flex;
+}
+
+.new-item {
+  margin: 20px 0;
+  border-bottom: 2px dotted #ccc;
+}
+
+.new-item p {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.news .title-new {
+  display: flex;
+}
+
+.all-news {
+  display: flex;
+  justify-content: center;
+}
+
+.all-news button{
+  border: 0;
+  padding: 15px;
+  background-color: #e3301c;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.informations {
+  border-bottom: 1px solid #e3301c;
+}
+
+.informations h2 {
+  color: #e3301c;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.informations .information-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.information-icon {
+  margin-right: 20px;
+}
+
+.information-icon img {
+  width: 80px;
+}
+
+.information-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-content h3 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.information-link {
+  border-radius: 5px;
+  background-color: #e3301c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-link span {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  min-width: 200px;
+}
