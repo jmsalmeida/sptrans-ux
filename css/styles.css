@@ -88,10 +88,10 @@ section {
 }
 
 .banner {
-  background-image: url('../images/consulteasituacaobilhete2.png');
-  background-size: cover;
+  background-image: url(../images/Banner-Sptrans2.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   height: 300px;
   padding: 0;
 }
