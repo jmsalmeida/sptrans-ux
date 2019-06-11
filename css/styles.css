@@ -5,6 +5,7 @@
   box-sizing: border-box;
   color: #333333;
   font-size: 12px;
+  font-family: sans-serif;
 }
 
 section {
@@ -51,7 +52,7 @@ section {
 }
 
 .serch-bar {
-  width: 40%;
+  width: 80%;
   background-color: #fff;
   padding: 10px 0;
   display: flex;
