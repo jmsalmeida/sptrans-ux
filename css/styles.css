@@ -17,6 +17,29 @@ section {
   border-radius: 50%;
 }
 
+.chat-balloon {
+  position: fixed;
+  bottom: 16px;
+  right: 90px;
+  margin: 10px;
+  z-index: 9999;
+
+}
+
+.chat-balloon > div {
+  width: 25vh;
+  background-color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px #333333;
+}
+
+.chat-balloon > div span {
+  font-size: 12px;
+}
+
+
 /* Generic classes */
 .bars {
   margin: 0 5px;
